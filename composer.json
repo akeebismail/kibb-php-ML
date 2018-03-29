@@ -1,0 +1,19 @@
+{
+  "name" : "twitter sentiment analysis",
+  "description" : "tweet ml sentiment analysis",
+  "type" : " ML Project",
+  "authors" : [
+    {
+      "name": "Akeeb Ismail",
+      "email" : "damiz.akeeb@gmail.com"
+    }
+  ],
+    "require": {
+        "php-ai/php-ml": "^0.6.2"
+    },
+  "autoload" : {
+    "psr-4" : {
+      "Kibb\\" : "src/"
+    }
+  }
+}
